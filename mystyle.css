@@ -1,4 +1,4 @@
-img{
+.profile{
 	/*opacity: 1;*/
 	width:115px;
 	height:115px;
@@ -17,9 +17,10 @@ body {
     background-repeat: no-repeat;
     height: auto;
     width: auto\9;
+
 }
 div {
-	opacity: 0.9;
+	background-opacity: 0.75;
 	background-color: rgba(47, 112, 181, 0.529412);
 	border: 1px solid rgba(255,255,255,0.1);
 	box-shadow: 0 0 10px rgba(0,0,0,0.4);
@@ -31,7 +32,9 @@ div {
 	max-width: 400px;
 	padding-left: 20px;
 }
-
+#leftcolumn{
+	vertical-align: 
+}
 h1 {
 	color:#afd1e9;
 	font-family: Helvetica, Verdana, sans-serif;
@@ -49,7 +52,7 @@ h2{
 @media only screen and (min-width: 600px) {
 	body {
 		background-image: url("images/lol.jpg");
-		background-size: cover;
+		background-size: 100%;
 	}
 }
 
